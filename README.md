@@ -9,6 +9,9 @@ optional arguments:
   -h, --help  show this help message and exit
   
   -ip IP      iDRAC/ILOM/BMC IP address
+  
   -u U        iDRAC/ILOM/BMC username
+  
   -p P        iDRAC/ILOM/BMC password
+  
   -t T        Vendor Hardware Type DELL|HP|OTHER
