@@ -52,7 +52,7 @@ def get_controller_disks():
     data = response.json()
     drive_list=[]
     if response.status_code != 200:
-        print("\n- FAIL, either controller not found on server or typo in controller FQDD name")
+        print("\n- FAIL, either controller not found on server or typo in controller FQDN name")
         return
     if data[u'Drives'] == []:
         print("\n- WARNING, no drives detected for %s" % controller)
