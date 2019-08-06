@@ -324,7 +324,7 @@ start_time=datetime.now()
 if __name__ == "__main__":
     if vendor_type == "DELL":
         check_supported_idrac_version()
-    	get_storage_controllers()
+        get_storage_controllers()
    	create_raid_vd()
    	if job_type == "realtime":
             loop_job_status()
