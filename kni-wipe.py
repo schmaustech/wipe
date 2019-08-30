@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 #########################################################################################################
-#													                                                                              #
-# This Python script will look at storage controllers delete any virtual disk and then wipe all disks	  #
-#												                                                                              	# 
+#													                                                                              
+# This Python script will look at storage controllers delete any virtual disk and then wipe all disks	  
+# Reference & Originals Here: https://github.com/dell/iDRAC-Redfish-Scripting/tree/master/Redfish%20Python
+# Originals License: GPL2
+#												                                                                              	 
 #########################################################################################################
 
 import requests, json, sys, re, time, warnings, argparse
