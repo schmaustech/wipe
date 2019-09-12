@@ -1,5 +1,5 @@
-$ ./kni-wipe.py -h
-usage: kni-wipe.py [-h] -ip IP -u U -p P -t T
+$ ./wipe.py -h
+usage: wipe.py [-h] -ip IP -u U -p P -t T
 
 Python script using Redfish API which will delete any virtual drives, then
 secure erase all drives on host and finally re-establish the virtual drive
