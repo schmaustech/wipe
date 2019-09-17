@@ -339,5 +339,5 @@ if __name__ == "__main__":
         print("\n HP Not Implemented Yet")
         sys.exit()
     else:
-        print("\n Other Not Implemented Yet")
+        print("\n \"%s\" Not Implemented Yet" % (vendor_type) )
         sys.exit()
