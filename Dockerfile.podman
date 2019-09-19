@@ -1,0 +1,5 @@
+FROM registry.access.redhat.com/ubi8/ubi
+USER root
+ADD wipe.py /
+RUN yum install -y python36 python3-requests
+ENTRYPOINT python3 /wipe.py -ip $IP -u $USERNAME -p $PASSWORD -t $TYPE
